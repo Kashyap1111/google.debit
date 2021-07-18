@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: google.JUnitTestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.2 s <<< FAILURE! - in google.JUnitTestSuite
+testHomePageHasAHeader(google.SampleJUnitTest)  Time elapsed: 0.146 s  <<< ERROR!
+ru.stqa.selenium.factory.DriverCreationError: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.WebDriverException: 
+Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'KASHYAP-PC', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: FirefoxDriver
+
